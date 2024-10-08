@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+    
+    .hero {
+        height: 60vh;
+    }
+    
+    .intro h1 {
+        font-size: 36px;
+    }
+}
+
+
+.btn:hover {
+    background: #e68a00; /* Slightly darker shade on hover */
+    transition: background 0.3s;
+}
+ 
+
+.hero h1 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
